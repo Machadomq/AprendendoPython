@@ -2,12 +2,12 @@ from painelgu import *
 from arquivo import *
 
 # excel arquivo
-cadastro_caminho = "machado/menu/cadastro.xlsx"
+cadastro_caminho = "python\Meu_primeiro_projeto\cadastro_xlsx\cadastro.xlsx"
 
 
 while True:
     resposta = menu2(
-        ["Sair do programa", "Cadastrar novo usuario", "Visualizar usuarios", "Procurar usuario"]
+        ["Sair do programa", "Cadastrar novo usuario", "Visualizar usuarios", "Procurar usuario(EM TESTE)"]
     )
 
     if resposta == 3:
